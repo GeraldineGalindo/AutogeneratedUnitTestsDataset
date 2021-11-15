@@ -141,6 +141,6 @@ BaselineOfGenerated >> soup: spec [
 BaselineOfGenerated >> xpath: spec [
 	spec 
    		baseline: 'XPath' 
-	   with: [ spec repository: 'github://pharo-contributions/XML-XPath/src' ]
+	   with: [ spec repository: 'http://www.smalltalkhub.com/mc/PharoExtras/XMLWriter/main' ]
 
 ]
