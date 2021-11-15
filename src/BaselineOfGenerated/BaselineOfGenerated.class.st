@@ -22,7 +22,7 @@ BaselineOfGenerated >> baseline: spec [
 			self polymath: spec. 
 			self roassal: spec.
 			self soup: spec. 
-			"self xpath: spec."
+			self xpath: spec.
 			self petitparser: spec. 
 			self smallSuiteGenerator: spec. 
 			"Packages"
