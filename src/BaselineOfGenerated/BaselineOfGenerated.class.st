@@ -8,7 +8,7 @@ Class {
 BaselineOfGenerated >> baseline: spec [
 	<baseline>
 	spec
-		for: #common
+		for: #pharo
 		do: [
 			"Dependencies"
 			self dataframe: spec.
@@ -22,12 +22,11 @@ BaselineOfGenerated >> baseline: spec [
 			self polymath: spec. 
 			self roassal: spec.
 			self soup: spec. 
-			self xpath: spec.
+			"self xpath: spec."
 			self petitparser: spec. 
 			self smallSuiteGenerator: spec. 
 			"Packages"
-			spec
-				package: 'Generated'
+			spec package: 'Generated'
 			 ]
 
 		
