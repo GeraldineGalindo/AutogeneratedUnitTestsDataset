@@ -139,8 +139,9 @@ BaselineOfGenerated >> soup: spec [
 
 { #category : #loading }
 BaselineOfGenerated >> xpath: spec [
-	spec 
-   		baseline: 'XPath' 
-	   with: [ spec repository: 'http://www.smalltalkhub.com/mc/PharoExtras/XMLWriter/main' ]
+   		spec configuration: 'XMLParser' 
+				with: [ spec
+					versionString: #'stable';
+					repository: 'http://www.smalltalkhub.com/mc/PharoExtras/XMLParser/main' ].
 
 ]
